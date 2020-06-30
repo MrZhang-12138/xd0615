@@ -27,7 +27,7 @@ int i=0;
 
 void loop()
 {
-  for(i=0;i<=9;i++)
+  for(i=0;i<9;i++)
   {
     income=income-'0';
     digitalWrite(4,income&0x1);
@@ -37,7 +37,7 @@ void loop()
     delay(1000);
     income++;
   }
-  for(i=0;i<=9;i++)
+  for(i=0;i<9;i++)
   {
     income=income-'0';
     digitalWrite(4,income&0x1);
